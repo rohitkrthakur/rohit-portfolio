@@ -658,13 +658,23 @@ function App() {
             </div>
           </div>
             <div className="pointer-events-auto relative hidden min-h-[100svh] items-center justify-center pl-20 pt-10 lg:flex">
-              <div className="relative w-full max-w-[420px] aspect-square overflow-hidden rounded-[36px] border-[6px] border-white p-[8px] shadow-[0_0_0_2px_rgba(0,0,0,0.2),0_26px_56px_rgba(0,0,0,0.22)]">
-                <img
-                  src="/profile.png"
-                  alt="Rohit profile"
-                  className="block w-full h-full rounded-[30px] object-cover object-center"
-                />
-              </div>
+              <div className="group relative w-full max-w-[420px] aspect-square overflow-hidden rounded-[36px] border-[6px] border-white p-[8px] shadow-[0_0_0_2px_rgba(0,0,0,0.2),0_26px_56px_rgba(0,0,0,0.22)]">
+
+  {/* Default Image */}
+  <img
+    src="/profile.png"
+    alt="Rohit profile"
+    className="absolute inset-0 w-full h-full rounded-[30px] object-cover object-center transition-all duration-500 ease-in-out group-hover:opacity-0 group-hover:scale-110"
+  />
+
+  {/* Hover Image */}
+  <img
+    src="/rohit.png"
+    alt="Rohit hover"
+    className="absolute inset-0 w-full h-full rounded-[30px] object-cover object-center opacity-0 scale-95 transition-all duration-500 ease-in-out group-hover:opacity-100 group-hover:scale-100"
+  />
+
+</div>
             </div>
           </div>
         </div>
