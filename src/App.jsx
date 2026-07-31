@@ -20,6 +20,7 @@ import { Button } from './components/ui/button';
 import { SmoothCursor } from './components/ui/smooth-cursor';
 import { Input } from './components/ui/input';
 import { Textarea } from './components/ui/textarea';
+import BuyCoffee from './components/BuyCoffee';
 import {
   GlobeHemisphereWest,
   GithubLogo,
@@ -791,6 +792,9 @@ function App() {
                       <a href={`mailto:${contactEmail}`} className="text-base text-white hover:underline transition-colors">{contactEmail}</a>
                     </div>
                   </div>
+                  <div className="pt-2">
+    <BuyCoffee />
+  </div>
                 </div>
               </div>
 
