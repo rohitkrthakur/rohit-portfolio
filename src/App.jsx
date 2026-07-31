@@ -669,7 +669,7 @@ function App() {
 
   {/* Hover Image */}
   <img
-    src="/rohit.png"
+    src="/Rohit.png"
     alt="Rohit hover"
     className="absolute inset-0 w-full h-full rounded-[30px] object-cover object-center opacity-0 scale-95 transition-all duration-500 ease-in-out group-hover:opacity-100 group-hover:scale-100"
   />
