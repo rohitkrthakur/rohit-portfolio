@@ -54,10 +54,11 @@ gsap.registerPlugin(ScrollTrigger);
 
 const menuItems = [
   { label: 'Skills', ariaLabel: 'View skills section', link: '#skills' },
+  { label: 'Experience', ariaLabel: 'View experience section', link: '#experience' },
   { label: 'Projects', ariaLabel: 'View projects section', link: '#projects' },
   { label: 'Reviews', ariaLabel: 'View Reviews section', link: '#reviews' },
   { label: 'Contact', ariaLabel: 'Contact section', link: '#contact' },
-  { label: 'Experience', ariaLabel: 'View experience section', link: '#experience' },
+  
 ];
 
 const socialItems = [
@@ -79,6 +80,7 @@ const newSkillsData = [
       { name: "React.js", icon: Atom, color: "#61DAFB" },
       { name: "Next.js", icon: Lightning, color: "#ffffff" },
       { name: "TypeScript", icon: CodeBlock, color: "#3178C6" },
+      { name: "Redux", icon: Sparkle, color: "#764ABC" },
       { name: "Tailwind CSS", icon: Cloud, color: "#38BDF8" }
     ]
   },
@@ -99,7 +101,14 @@ const newSkillsData = [
     ]
   },
   {
-    category: "DEVOPS & OTHER",
+    category: "AUTH",
+    items: [
+      { name: "JWT", icon: Coffee, color: "#000000" },
+      { name: "RBAC", icon: Coffee, color: "#5227FF" }
+    ]
+  },
+  {
+    category: "DEVOPS",
     items: [
       { name: "AWS EC2", icon: Cloud, color: "#FF9900" },
       { name: "Docker", icon: Package, color: "#2496ED" },
@@ -119,7 +128,7 @@ const projectItems = [
     link: 'https://github.com/rohitkrthakur',
     color: '#120F17',
     icon: PaperPlaneTilt,
-    media: { type: 'image', url: '/photos/SAAR.png' }
+    media: { type: 'image', url: '/photos/saar.png' }
   },
   {
     label: 'B2B Marketplace',
@@ -131,7 +140,7 @@ const projectItems = [
     projectLink: 'https://eximroutes.ai/',
     color: '#120F17',
     icon: GlobeHemisphereWest,
-    media: { type: 'image', url: '/photos/EximRoutes.png' }
+    media: { type: 'image', url: '/photos/exim.png' }
   },
   {
     label: 'EdTech Platform',
@@ -142,7 +151,7 @@ const projectItems = [
     link: 'https://github.com/rohitkrthakur',
     color: '#120F17',
     icon: CodeBlock,
-    media: { type: 'image', url: '/photos/IFH.png' }
+    media: { type: 'image', url: '/photos/ifh.png' }
   },
   {
     label: 'FinTech Platform',
@@ -153,7 +162,7 @@ const projectItems = [
     link: 'https://github.com/rohitkrthakur',
     color: '#120F17',
     icon: ChartLineUp,
-    media: { type: 'image', url: '/photos/GoldMani.png' }
+    media: { type: 'image', url: '/photos/goldmani.png' }
   },
   {
     label: 'AI Resume Analyzer',
@@ -165,7 +174,7 @@ const projectItems = [
     projectLink: 'https://resumate-ai.vercel.app/',
     color: '#120F17',
     icon: Robot,
-    media: { type: 'image', url: '/photos/ResumateAI.png' }
+    media: { type: 'image', url: '/photos/ats.png' }
   },
   {
     label: 'eCommerce Platform',
