@@ -1,18 +1,60 @@
-# React + Vite
+# Rohit Kr Thakur — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website showcasing my projects, skills, and experience as a Full Stack Developer.
 
-Currently, two official plugins are available:
+🔗 **Live:** [rohit-portfolio-ochre-delta.vercel.app](https://rohit-portfolio-ochre-delta.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+Built to showcase my work as a Full Stack Developer specializing in React.js, Next.js, Node.js, and MongoDB. Includes real-time projects, production experience, and an AI-powered resume analyzer.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Features
 
-Note: This will impact Vite dev & build performances.
+- Interactive hero section with smooth scroll animations (GSAP + Lenis)
+- Skills showcase across Frontend, Backend, Database, Auth, and DevOps
+- Experience timeline with scroll-based reveal
+- Project showcase with live demos and case studies
+- AI-assisted reviews section (Google Gemini API)
+- Resume view counter (Upstash Redis)
+- Contact form with email notifications
+- Buy Me a Coffee integration (Razorpay)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend:** React.js, Vite, Tailwind CSS, GSAP, Framer Motion
+**Backend:** Vercel Serverless Functions, Node.js
+**Database:** Upstash Redis
+**AI:** Google Gemini API
+**Payments:** Razorpay
+**Deployment:** Vercel
+
+## Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/rohitkrthakur/rohit-portfolio.git
+cd rohit-portfolio
+
+# Install dependencies
+npm install
+
+# Set up environment variables (see .env.example)
+# UPSTASH_REDIS_REST_URL=
+# UPSTASH_REDIS_REST_TOKEN=
+# GEMINI_API_KEY=
+# RAZORPAY_KEY_ID=
+# RAZORPAY_KEY_SECRET=
+
+# Run locally (with API routes)
+vercel dev
+```
+
+## Contact
+
+- Email: rohitsr8887@gmail.com
+- LinkedIn: [linkedin.com/in/rohit-thakur](https://www.linkedin.com/in/rohit-thakur-36403a251/)
+- GitHub: [github.com/rohitkrthakur](https://github.com/rohitkrthakur)
+
+---
+
+Feel free to reach out if you'd like to collaborate or have any questions!
