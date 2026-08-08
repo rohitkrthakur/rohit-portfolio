@@ -14,7 +14,7 @@ export default async function handler(req, res) {
       return res.status(200).json({ value: numberValue });
     }
 
-    if (req.method === 'POST') {
+    if (req.method === 'POST') 
       const value = await redis.incr(COUNTER_KEY);
       return res.status(200).json({ value });
     }
